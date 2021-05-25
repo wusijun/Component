@@ -1,6 +1,7 @@
 PODS:
   - Matrix (0.0.1)
-  - SubModule1 (0.0.1)
+  - SubModule1 (0.0.1):
+    - Matrix
   - SubModule2 (0.0.1)
 
 DEPENDENCIES:
@@ -18,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Matrix: c64f5ccd99ced923e90ff9decc67c097e37f765a
-  SubModule1: 4b86e1b01c0f7a663fdbddf263582caecc5d0e08
+  SubModule1: 4ada7f7aaf3ac14fd779e33131469620f6028ed9
   SubModule2: 3cd9fb28c50bb7e351c14b34af0ffc67bb84c7a6
 
 PODFILE CHECKSUM: 38983176d3236b9c900b7ac68077353b41781f21

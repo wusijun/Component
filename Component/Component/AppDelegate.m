@@ -6,6 +6,9 @@
 //
 
 #import "AppDelegate.h"
+#import <Matrix/Matrix.h>
+#import <Matrix/PersonProtocol.h>
+#import "PersonProvider.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Matrix shareInstance].personProtocol = [[PersonProvider alloc] init];
     return YES;
 }
 

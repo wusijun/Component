@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23504291265D00D000E51B12 /* PersonProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 23504290265D00D000E51B12 /* PersonProvider.m */; };
 		235A8CB7265CE3F1006DE6AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A8CB6265CE3F1006DE6AE /* AppDelegate.m */; };
 		235A8CBA265CE3F1006DE6AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A8CB9265CE3F1006DE6AE /* SceneDelegate.m */; };
 		235A8CBD265CE3F1006DE6AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A8CBC265CE3F1006DE6AE /* ViewController.m */; };
@@ -19,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		1D926B3D13F941FCD4008894 /* Pods-Component.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component.debug.xcconfig"; path = "Target Support Files/Pods-Component/Pods-Component.debug.xcconfig"; sourceTree = "<group>"; };
+		2350428F265D00D000E51B12 /* PersonProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProvider.h; sourceTree = "<group>"; };
+		23504290265D00D000E51B12 /* PersonProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonProvider.m; sourceTree = "<group>"; };
 		235A8CB2265CE3F1006DE6AE /* Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235A8CB5265CE3F1006DE6AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		235A8CB6265CE3F1006DE6AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2350428E265D00B500E51B12 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				2350428F265D00D000E51B12 /* PersonProvider.h */,
+				23504290265D00D000E51B12 /* PersonProvider.m */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		235A8CA9265CE3F1006DE6AE = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 		235A8CB4265CE3F1006DE6AE /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				2350428E265D00B500E51B12 /* Provider */,
 				235A8CB5265CE3F1006DE6AE /* AppDelegate.h */,
 				235A8CB6265CE3F1006DE6AE /* AppDelegate.m */,
 				235A8CB8265CE3F1006DE6AE /* SceneDelegate.h */,
@@ -89,7 +102,6 @@
 				1D926B3D13F941FCD4008894 /* Pods-Component.debug.xcconfig */,
 				C7C24B84FF2DFF0C6D110999 /* Pods-Component.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,6 +124,7 @@
 				235A8CAE265CE3F1006DE6AE /* Sources */,
 				235A8CAF265CE3F1006DE6AE /* Frameworks */,
 				235A8CB0265CE3F1006DE6AE /* Resources */,
+				D44652656F35AC2AB1824036 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +180,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D44652656F35AC2AB1824036 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Component/Pods-Component-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Component/Pods-Component-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Component/Pods-Component-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F2264735B3662E40C0812739 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +228,7 @@
 			files = (
 				235A8CBD265CE3F1006DE6AE /* ViewController.m in Sources */,
 				235A8CB7265CE3F1006DE6AE /* AppDelegate.m in Sources */,
+				23504291265D00D000E51B12 /* PersonProvider.m in Sources */,
 				235A8CC8265CE3F2006DE6AE /* main.m in Sources */,
 				235A8CBA265CE3F1006DE6AE /* SceneDelegate.m in Sources */,
 			);

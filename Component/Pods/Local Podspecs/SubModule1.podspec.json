@@ -20,6 +20,11 @@
     "Classes/**/*.{h,m}"
   ],
   "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "Matrix": [
+
+    ]
+  },
   "platforms": {
     "osx": null,
     "ios": null,
