@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Component/Pods-Component-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Matrix/Matrix.framework
+${BUILT_PRODUCTS_DIR}/SubModule1/SubModule1.framework
