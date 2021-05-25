@@ -1,0 +1,29 @@
+{
+  "name": "SubModule1",
+  "version": "0.0.1",
+  "summary": "A short description of SubModule1.",
+  "description": "子模块1",
+  "homepage": "https://github.com/wusijun/SubModule1.git",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "吴四军": "wusijuncan@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wusijun/SubModule1.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
