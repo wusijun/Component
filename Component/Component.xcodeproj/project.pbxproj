@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		235A8CC2265CE3F2006DE6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235A8CC1265CE3F2006DE6AE /* Assets.xcassets */; };
 		235A8CC5265CE3F2006DE6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235A8CC3265CE3F2006DE6AE /* LaunchScreen.storyboard */; };
 		235A8CC8265CE3F2006DE6AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A8CC7265CE3F2006DE6AE /* main.m */; };
+		2385F5CD265E007B009FC266 /* AdvanceAnimationTricksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2385F5CC265E007B009FC266 /* AdvanceAnimationTricksViewController.m */; };
 		4AB723CF9138E8D479DC45FA /* Pods_Component.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA8F463CEA03B6D3A86A599 /* Pods_Component.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		235A8CC4265CE3F2006DE6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		235A8CC6265CE3F2006DE6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235A8CC7265CE3F2006DE6AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2385F5CB265E007B009FC266 /* AdvanceAnimationTricksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceAnimationTricksViewController.h; sourceTree = "<group>"; };
+		2385F5CC265E007B009FC266 /* AdvanceAnimationTricksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceAnimationTricksViewController.m; sourceTree = "<group>"; };
 		7DA8F463CEA03B6D3A86A599 /* Pods_Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C24B84FF2DFF0C6D110999 /* Pods-Component.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component.release.xcconfig"; path = "Target Support Files/Pods-Component/Pods-Component.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +83,7 @@
 		235A8CB4265CE3F1006DE6AE /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				2385F5C9265DFCED009FC266 /* AdvancedAnimationTricks */,
 				2350428E265D00B500E51B12 /* Provider */,
 				235A8CB5265CE3F1006DE6AE /* AppDelegate.h */,
 				235A8CB6265CE3F1006DE6AE /* AppDelegate.m */,
@@ -94,6 +98,15 @@
 				235A8CC7265CE3F2006DE6AE /* main.m */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		2385F5C9265DFCED009FC266 /* AdvancedAnimationTricks */ = {
+			isa = PBXGroup;
+			children = (
+				2385F5CB265E007B009FC266 /* AdvanceAnimationTricksViewController.h */,
+				2385F5CC265E007B009FC266 /* AdvanceAnimationTricksViewController.m */,
+			);
+			path = AdvancedAnimationTricks;
 			sourceTree = "<group>";
 		};
 		708295A988D601E5554B3B9B /* Pods */ = {
@@ -230,6 +243,7 @@
 				235A8CB7265CE3F1006DE6AE /* AppDelegate.m in Sources */,
 				23504291265D00D000E51B12 /* PersonProvider.m in Sources */,
 				235A8CC8265CE3F2006DE6AE /* main.m in Sources */,
+				2385F5CD265E007B009FC266 /* AdvanceAnimationTricksViewController.m in Sources */,
 				235A8CBA265CE3F1006DE6AE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
